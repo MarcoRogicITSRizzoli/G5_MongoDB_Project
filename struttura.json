@@ -1,0 +1,31 @@
+#con mongo posso utilizzare l'operatore near per restituire i valori vicini, utile con le cordiate
+
+{
+    "nome_noncerto": "nome",
+    "artista": "nome",
+    "ospiti": ["nome1", "nome2", "ecc"],
+    "data": "YYYY-MM-DD", #cerca il formato per la data in mongodb
+    "ora": "ora", #cerca il formato per l'orario di mongob
+    "biglietti": [
+        {
+            "tipo": "Generale",
+            "prezzo": 50.00,
+            "disponibilita": 50000
+        }
+    ],
+    "luogo": {
+        "citta": "Milano",
+        "Località": "Stadio San Siro",
+        "indirizzo": "Via Dante",
+        "coordinate": [
+            9.58674171737212,
+            44.78696099251991
+        ]
+    }
+}
+#Il JSON può variare per ogni concerto, è possibile che un concerto abbia una o più tipologie di biglietto ma anche più date.
+#La sezione dei biglietti cerchiamo di farla più variegata possibile.
+
+#Variare i biglietti in base alle giornate
+#Cercare i formati per le date e gli orari
+#Se avete altre info da inserire all'interno della struttura json fatelo pure lasciando un commento e committando.
