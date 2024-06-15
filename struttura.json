@@ -1,31 +1,181 @@
-#con mongo posso utilizzare l'operatore near per restituire i valori vicini, utile con le cordiate
 
 {
-    "nome_noncerto": "nome",
-    "artista": "nome",
-    "ospiti": ["nome1", "nome2", "ecc"],
-    "data": "YYYY-MM-DD", #cerca il formato per la data in mongodb
-    "ora": "ora", #cerca il formato per l'orario di mongob
-    "biglietti":
-        {
-            "tipo": "Generale",
-            "prezzo": 50.00,
-            "disponibilita": 50000
-        }
-    ],
-    "luogo": {
-        "citta": "Milano",
-        "Località": "Stadio San Siro",
-        "indirizzo": "Via Dante",
-        "coordinate": [
-            9.58674171737212,
-            44.78696099251991
-        ]
+"artista": "Vasco Rossi",
+"nome_noncerto": "Non Stop Live 2023",
+"ospiti": [
+    "Mahmood",
+    "Emma Marrone"
+],
+"data": "2023-06-20",
+"ora": "21:00",
+"biglietti": [
+    {
+        "tipo": "Platea",
+        "prezzo": 80.00,
+        "disponibilita": 15000
+    },
+    {
+        "tipo": "Tribuna",
+        "prezzo": 60.00,
+        "disponibilita": 20000
+    },
+    {
+        "tipo": "Anello Superiore",
+        "prezzo": 40.00,
+        "disponibilita": 25000
     }
+],
+"luogo": {
+    "citta": "Modena",
+    "Località": "Stadio Braglia",
+    "indirizzo": "Viale dello Sport, 16",
+    "coordinate": [
+        10.92619,
+        44.64852
+    ]
 }
-#Il JSON può variare per ogni concerto, è possibile che un concerto abbia una o più tipologie di biglietto ma anche più date.
-#La sezione dei biglietti cerchiamo di farla più variegata possibile.
-
-#Variare i biglietti in base alle giornate
-#Cercare i formati per le date e gli orari
-#Se avete altre info da inserire all'interno della struttura json fatelo pure lasciando un commento e committando. ciao
+}
+    {
+"artista": "Laura Pausini",
+"nome_noncerto": "Laura Pausini World Tour 2023",
+"ospiti": [
+    "Biagio Antonacci",
+    "Elisa"
+],
+"data": "2023-07-05",
+"ora": "20:30",
+"biglietti": [
+    {
+        "tipo": "VIP",
+        "prezzo": 150.00,
+        "disponibilita": 2000
+    },
+    {
+        "tipo": "Parterre",
+        "prezzo": 90.00,
+        "disponibilita": 10000
+    },
+    {
+        "tipo": "Tribuna Centrale",
+        "prezzo": 70.00,
+        "disponibilita": 15000
+    },
+    {
+        "tipo": "Gradinata",
+        "prezzo": 50.00,
+        "disponibilita": 20000
+    }
+],
+"luogo": {
+    "citta": "Roma",
+    "Località": "Circo Massimo",
+    "indirizzo": "Via del Circo Massimo",
+    "coordinate": [
+        12.48377,
+        41.88532
+    ]
+}
+}
+    {
+"artista": "Ligabue",
+"nome_noncerto": "30 Anni in Un Giorno Tour",
+"ospiti": [
+    "Gianni Morandi",
+    "Massimo Ranieri"
+],
+"data": "2023-09-10",
+"ora": "21:00",
+"biglietti": [
+    {
+        "tipo": "Gold Circle",
+        "prezzo": 100.00,
+        "disponibilita": 5000
+    },
+    {
+        "tipo": "Prato",
+        "prezzo": 70.00,
+        "disponibilita": 20000
+    },
+    {
+        "tipo": "Tribuna",
+        "prezzo": 50.00,
+        "disponibilita": 15000
+    }
+],
+"luogo": {
+    "citta": "Reggio Emilia",
+    "Località": "RCF Arena",
+    "indirizzo": "Viale Olimpia, 1/A",
+    "coordinate": [
+        10.62465,
+        44.69672
+    ]
+}
+}
+    {
+"artista": "Francesca Michielin",
+"nome_noncerto": "Michielin10 - Live Tour 2023",
+"ospiti": [
+    "Madame",
+    "Ariete"
+],
+"data": "2023-10-20",
+"ora": "20:00",
+"biglietti": [
+    {
+        "tipo": "Meet & Greet",
+        "prezzo": 150.00,
+        "disponibilita": 500
+    },
+    {
+        "tipo": "Posto Unico",
+        "prezzo": 40.00,
+        "disponibilita": 10000
+    }
+],
+"luogo": {
+    "citta": "Milano",
+    "Località": "Alcatraz",
+    "indirizzo": "Via Valtellina, 25",
+    "coordinate": [
+        9.18095,
+        45.47462
+    ]
+}
+}
+    {
+"artista": "Måneskin",
+"nome_noncerto": "Loud Kids Tour 2023",
+"ospiti": [
+    "Pabllo Vittar",
+    "Fede N Soda"
+],
+"data": "2023-11-15",
+"ora": "21:30",
+"biglietti": [
+    {
+        "tipo": "VIP Package",
+        "prezzo": 200.00,
+        "disponibilita": 1000
+    },
+    {
+        "tipo": "Posto Numerato",
+        "prezzo": 60.00,
+        "disponibilita": 15000
+    },
+    {
+        "tipo": "Posto in Piedi",
+        "prezzo": 45.00,
+        "disponibilita": 20000
+    }
+],
+"luogo": {
+    "citta": "Torino",
+    "Località": "Pala Alpitour",
+    "indirizzo": "Corso Sebastopoli, 123",
+    "coordinate": [
+        7.65594,
+        45.08393
+    ]
+}
+}
