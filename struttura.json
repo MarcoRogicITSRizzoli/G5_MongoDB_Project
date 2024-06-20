@@ -1,480 +1,484 @@
 {
-    "artista": "Vasco Rossi",
-    "nome_noncerto": "Non Stop Live 2025",
-    "ospiti": [
-        "Mahmood",
-        "Emma Marrone"
-    ],
-    "date": [
-        "2025-06-20"
-    ],
-    "ora": "21:00",
-    "biglietti": [
-        {
-            "tipo": "Platea",
-            "prezzo": 80.00,
-            "disponibilita": 15000,
-            "data": "2025-6-20"
-        },
-        {
-            "tipo": "Tribuna",
-            "prezzo": 60.00,
-            "disponibilita": 20000,
-            "data": "2025-06-20"
-        },
-        {
-            "tipo": "Anello Superiore",
-            "prezzo": 40.00,
-            "disponibilita": 25000,
-            "data": "2025-06-20"
-        }
-    ],
-    "luogo": {
-        "citta": "Modena",
-        "Località": "Stadio Braglia",
-        "indirizzo": "Viale dello Sport, 16",
-        "coordinate": [
-            10.92619,
-            44.64852
-        ]
-    }
-}
+    "concerti": [
     {
-    "artista": "Laura Pausini",
-    "nome_noncerto": "Laura Pausini World Tour 2025",
-    "ospiti": [
-        "Biagio Antonacci",
-        "Elisa"
-    ],
-    "date": [
-        "2025-07-05"
-    ],
-    "ora": "20:30",
-    "biglietti": [
-        {
-            "tipo": "VIP",
-            "prezzo": 150.00,
-            "disponibilita": 2000,
-            "data": "2025-07-05"
-        },
-        {
-            "tipo": "Parterre",
-            "prezzo": 90.00,
-            "disponibilita": 10000,
-            "data": "2025-07-05"
-        },
-        {
-            "tipo": "Tribuna Centrale",
-            "prezzo": 70.00,
-            "disponibilita": 15000,
-            "data": "2025-07-05"
-        },
-        {
-            "tipo": "Gradinata",
-            "prezzo": 50.00,
-            "disponibilita": 20000,
-            "data": "2025-07-05"
+        "artista": "Vasco Rossi",
+        "nome_concerto": "Non Stop Live 2025",
+        "ospiti": [
+            "Mahmood",
+            "Emma Marrone"
+        ],
+        "date": [
+            "2025-06-20"
+        ],
+        "ora": "21:00",
+        "biglietti": [
+            {
+                "tipo": "Platea",
+                "prezzo": 80.00,
+                "disponibilita": 15000,
+                "data": "2025-6-20"
+            },
+            {
+                "tipo": "Tribuna",
+                "prezzo": 60.00,
+                "disponibilita": 20000,
+                "data": "2025-06-20"
+            },
+            {
+                "tipo": "Anello Superiore",
+                "prezzo": 40.00,
+                "disponibilita": 25000,
+                "data": "2025-06-20"
+            }
+        ],
+        "luogo": {
+            "citta": "Modena",
+            "Localita": "Stadio Braglia",
+            "indirizzo": "Viale dello Sport, 16",
+            "coordinate": [
+                10.92619,
+                44.64852
+            ]
         }
-    ],
-    "luogo": {
-        "citta": "Roma",
-        "Località": "Circo Massimo",
-        "indirizzo": "Via del Circo Massimo",
-        "coordinate": [
-            12.48377,
-            41.88532
-        ]
-    }
-}
+    },
+    { 
+        "artista": "Laura Pausini",
+        "nome_concerto": "Laura Pausini World Tour 2025",
+        "ospiti": [
+            "Biagio Antonacci",
+            "Elisa"
+        ],
+        "date": [
+            "2025-07-05"
+        ],
+        "ora": "20:30",
+        "biglietti": [
+            {
+                "tipo": "VIP",
+                "prezzo": 150.00,
+                "disponibilita": 2000,
+                "data": "2025-07-05"
+            },
+            {
+                "tipo": "Parterre",
+                "prezzo": 90.00,
+                "disponibilita": 10000,
+                "data": "2025-07-05"
+            },
+            {
+                "tipo": "Tribuna Centrale",
+                "prezzo": 70.00,
+                "disponibilita": 15000,
+                "data": "2025-07-05"
+            },
+            {
+                "tipo": "Gradinata",
+                "prezzo": 50.00,
+                "disponibilita": 20000,
+                "data": "2025-07-05"
+            }
+        ],
+        "luogo": {
+            "citta": "Roma",
+            "locaita": "Circo Massimo",
+            "indirizzo": "Via del Circo Massimo",
+            "coordinate": [
+                12.48377,
+                41.88532
+            ]
+        }
+    },
     {
-    "artista": "Ligabue",
-    "nome_noncerto": "30 Anni in Un Giorno Tour",
-    "ospiti": [
-        "Gianni Morandi",
-        "Massimo Ranieri"
-    ],
-    "date": [
-        "2025-09-10"
-    ],
-    "ora": "21:00",
-    "biglietti": [
-        {
-            "tipo": "Gold Circle",
-            "prezzo": 100.00,
-            "disponibilita": 5000,
-            "data": "2025-09-10"
-        },
-        {
-            "tipo": "Prato",
-            "prezzo": 70.00,
-            "disponibilita": 20000,
-            "data": "2025-09-10"
-        },
-        {
-            "tipo": "Tribuna",
-            "prezzo": 50.00,
-            "disponibilita": 15000,
-            "data": "2025-09-10"
+        "artista": "Ligabue",
+        "nome_concerto": "30 Anni in Un Giorno Tour",
+        "ospiti": [
+            "Gianni Morandi",
+            "Massimo Ranieri"
+        ],
+        "date": [
+            "2025-09-10"
+        ],
+        "ora": "21:00",
+        "biglietti": [
+            {
+                "tipo": "Gold Circle",
+                "prezzo": 100.00,
+                "disponibilita": 5000,
+                "data": "2025-09-10"
+            },
+            {
+                "tipo": "Prato",
+                "prezzo": 70.00,
+                "disponibilita": 20000,
+                "data": "2025-09-10"
+            },
+            {
+                "tipo": "Tribuna",
+                "prezzo": 50.00,
+                "disponibilita": 15000,
+                "data": "2025-09-10"
+            }
+        ],
+        "luogo": {
+            "citta": "Reggio Emilia",
+            "locaita": "RCF Arena",
+            "indirizzo": "Viale Olimpia, 1/A",
+            "coordinate": [
+                10.62465,
+                44.69672
+            ]
         }
-    ],
-    "luogo": {
-        "citta": "Reggio Emilia",
-        "Località": "RCF Arena",
-        "indirizzo": "Viale Olimpia, 1/A",
-        "coordinate": [
-            10.62465,
-            44.69672
-        ]
-    }
-}
+    },
     {
-    "artista": "Francesca Michielin",
-    "nome_noncerto": "Michielin10 - Live Tour 2025",
-    "ospiti": [
-        "Madame",
-        "Ariete"
-    ],
-    "date": [
-        "2025-10-20"
-    ],
-    "ora": "20:00",
-    "biglietti": [
-        {
-            "tipo": "Meet & Greet",
-            "prezzo": 150.00,
-            "disponibilita": 500,
-            "data": "2025-10-20"
-        },
-        {
-            "tipo": "Posto Unico",
-            "prezzo": 40.00,
-            "disponibilita": 10000,
-            "data": "2025-10-20"
+        "artista": "Francesca Michielin",
+        "nome_concerto": "Michielin10 - Live Tour 2025",
+        "ospiti": [
+            "Madame",
+            "Ariete"
+        ],
+        "date": [
+            "2025-10-20"
+        ],
+        "ora": "20:00",
+        "biglietti": [
+            {
+                "tipo": "Meet & Greet",
+                "prezzo": 150.00,
+                "disponibilita": 500,
+                "data": "2025-10-20"
+            },
+            {
+                "tipo": "Posto Unico",
+                "prezzo": 40.00,
+                "disponibilita": 10000,
+                "data": "2025-10-20"
+            }
+        ],
+        "luogo": {
+            "citta": "Milano",
+            "locaita": "Alcatraz",
+            "indirizzo": "Via Valtellina, 25",
+            "coordinate": [
+                9.18095,
+                45.47462
+            ]
         }
-    ],
-    "luogo": {
-        "citta": "Milano",
-        "Località": "Alcatraz",
-        "indirizzo": "Via Valtellina, 25",
-        "coordinate": [
-            9.18095,
-            45.47462
-        ]
-    }
-}
+    },
     {
-    "artista": "Måneskin",
-    "nome_noncerto": "Loud Kids Tour 2025",
-    "ospiti": [
-        "Pabllo Vittar",
-        "Fede N Soda"
-    ],
-    "date": [
-        "2025-11-15"
-    ],
-    "ora": "21:30",
-    "biglietti": [
-        {
-            "tipo": "VIP Package",
-            "prezzo": 200.00,
-            "disponibilita": 1000,
-            "data": "2025-11-15"
-        },
-        {
-            "tipo": "Posto Numerato",
-            "prezzo": 60.00,
-            "disponibilita": 15000,
-            "data": "2025-11-15"
-        },
-        {
-            "tipo": "Posto in Piedi",
-            "prezzo": 45.00,
-            "disponibilita": 20000,
-            "data": "2025-11-15"
+        "artista": "Måneskin",
+        "nome_concerto": "Loud Kids Tour 2025",
+        "ospiti": [
+            "Pabllo Vittar",
+            "Fede N Soda"
+        ],
+        "date": [
+            "2025-11-15"
+        ],
+        "ora": "21:30",
+        "biglietti": [
+            {
+                "tipo": "VIP Package",
+                "prezzo": 200.00,
+                "disponibilita": 1000,
+                "data": "2025-11-15"
+            },
+            {
+                "tipo": "Posto Numerato",
+                "prezzo": 60.00,
+                "disponibilita": 15000,
+                "data": "2025-11-15"
+            },
+            {
+                "tipo": "Posto in Piedi",
+                "prezzo": 45.00,
+                "disponibilita": 20000,
+                "data": "2025-11-15"
+            }
+        ],
+        "luogo": {
+            "citta": "Torino",
+            "locaita": "Pala Alpitour",
+            "indirizzo": "Corso Sebastopoli, 123",
+            "coordinate": [
+                7.65594,
+                45.08393
+            ]
         }
-    ],
-    "luogo": {
-        "citta": "Torino",
-        "Località": "Pala Alpitour",
-        "indirizzo": "Corso Sebastopoli, 123",
-        "coordinate": [
-            7.65594,
-            45.08393
-        ]
-    }
-}
+    },
     {
-    "nome_concerto": "Rap Festival 2025",
-    "ospiti": [
-        "Gemitaiz",
-        "Salmo",
-        "Madman",
-        "Noyz",
-        "Lazza",
-        "Gue",
-        "Marracash"
-    ],
-    "date": [
-        "2025-11-20",
-        "2025-11-21",
-        "2025-11-22"
-    ],
-    "ora": "16:30",
-    "biglietti": [
-        {
-            "tipo": "Settore Rosso",
-            "prezzo": 150.00,
-            "disponibilità": 4000,
-            "data": "2025-11-20"
-        },
-        {
-            "tipo": "Settore Giallo",
-            "prezzo": 100.00,
-            "disponibilità": 6000,
-            "data": "2025-11-20"
-        },
-        {
-            "tipo": "Settore Verde",
-            "prezzo": 70.00,
-            "disponibilità": 10000,
-            "data": "2025-11-20"
-        },
-        {
-            "tipo": "Settore Rosso",
-            "prezzo": 150.00,
-            "disponibilità": 4000,
-            "data": "2025-11-21"
-        },
-        {
-            "tipo": "Settore Giallo",
-            "prezzo": 100.00,
-            "disponibilità": 6000,
-            "data": "2025-11-21"
-        },
-        {
-            "tipo": "Settore Verde",
-            "prezzo": 70.00,
-            "disponibilità": 10000,
-            "data": "2025-11-21"
-        },
-        {
-            "tipo": "Settore Rosso",
-            "prezzo": 150.00,
-            "disponibilità": 4000,
-            "data": "2025-11-22"
-        },
-        {
-            "tipo": "Settore Giallo",
-            "prezzo": 100.00,
-            "disponibilità": 6000,
-            "data": "2025-11-22"
-        },
-        {
-            "tipo": "Settore Verde",
-            "prezzo": 70.00,
-            "disponibilità": 10000,
-            "data": "2025-11-22"
-        },
-    ],
-    "luogo": {
-        "citta": "Milano",
-        "Località": "Ippodromo SNAI San Siro",
-        "indirizzo": "Viale Piccolomini, 1",
-        "coordinate": [
-            9.13593,
-            45.47401
-        ]
-    }
-}
-{
-    "nome_concerto": "Festival Elettronico 2025",
-    "ospiti": [
-        "Armin van Buuren",
-        "Martin Garrix",
-        "Tiësto",
-        "Alesso",
-        "Hardwell"
-    ],
-    "date": [
-        "2025-06-12",
-        "2025-06-13"
-    ],
-    "ora": "18:00",
-    "biglietti": [
-        {
-            "tipo": "General Admission",
-            "prezzo": 80.00,
-            "disponibilità": 12000,
-            "data": "2025-06-12"
-        },
-        {
-            "tipo": "VIP",
-            "prezzo": 150.00,
-            "disponibilità": 2000,
-            "data": "2025-06-12"
-        },
-        {
-            "tipo": "General Admission",
-            "prezzo": 80.00,
-            "disponibilità": 12000,
-            "data": "2025-06-13"
-        },
-        {
-            "tipo": "VIP",
-            "prezzo": 150.00,
-            "disponibilità": 2000,
-            "data": "2025-06-13"
+        "nome_concerto": "Rap Festival 2025",
+        "ospiti": [
+            "Gemitaiz",
+            "Salmo",
+            "Madman",
+            "Noyz",
+            "Lazza",
+            "Gue",
+            "Marracash"
+        ],
+        "date": [
+            "2025-11-20",
+            "2025-11-21",
+            "2025-11-22"
+        ],
+        "ora": "16:30",
+        "biglietti": [
+            {
+                "tipo": "Settore Rosso",
+                "prezzo": 150.00,
+                "disponibilità": 4000,
+                "data": "2025-11-20"
+            },
+            {
+                "tipo": "Settore Giallo",
+                "prezzo": 100.00,
+                "disponibilità": 6000,
+                "data": "2025-11-20"
+            },
+            {
+                "tipo": "Settore Verde",
+                "prezzo": 70.00,
+                "disponibilità": 10000,
+                "data": "2025-11-20"
+            },
+            {
+                "tipo": "Settore Rosso",
+                "prezzo": 150.00,
+                "disponibilità": 4000,
+                "data": "2025-11-21"
+            },
+            {
+                "tipo": "Settore Giallo",
+                "prezzo": 100.00,
+                "disponibilità": 6000,
+                "data": "2025-11-21"
+            },
+            {
+                "tipo": "Settore Verde",
+                "prezzo": 70.00,
+                "disponibilità": 10000,
+                "data": "2025-11-21"
+            },
+            {
+                "tipo": "Settore Rosso",
+                "prezzo": 150.00,
+                "disponibilità": 4000,
+                "data": "2025-11-22"
+            },
+            {
+                "tipo": "Settore Giallo",
+                "prezzo": 100.00,
+                "disponibilità": 6000,
+                "data": "2025-11-22"
+            },
+            {
+                "tipo": "Settore Verde",
+                "prezzo": 70.00,
+                "disponibilità": 10000,
+                "data": "2025-11-22"
+            }
+        ],
+        "luogo": {
+            "citta": "Milano",
+            "locaita": "Ippodromo SNAI San Siro",
+            "indirizzo": "Viale Piccolomini, 1",
+            "coordinate": [
+                9.13593,
+                45.47401
+            ]
         }
-    ],
-    "luogo": {
-        "citta": "Rimini",
-        "Località": "Parco Fellini",
-        "indirizzo": "Viale Principe di Piemonte, 289",
-        "coordinate": [
-            12.56408,
-            44.06066
-        ]
-    }
-}
+    },
     {
-    "nome_concerto": "Rock in Park 2025",
-    "ospiti": [
-        "Foo Fighters",
-        "Muse",
-        "Paramore",
-        "Royal Blood",
-        "Twenty One Pilots"
-    ],
-    "date": [
-        "2025-09-05"
-    ],
-    "ora": "15:00",
-    "biglietti": [
-        {
-            "tipo": "General Admission",
-            "prezzo": 60.00,
-            "disponibilità": 15000,
-            "data": "2025-09-05"
-        },
-        {
-            "tipo": "VIP",
-            "prezzo": 120.00,
-            "disponibilità": 3000,
-            "data": "2025-09-05"
+        "nome_concerto": "Festival Elettronico 2025",
+        "ospiti": [
+            "Armin van Buuren",
+            "Martin Garrix",
+            "Tiësto",
+            "Alesso",
+            "Hardwell"
+        ],
+        "date": [
+            "2025-06-12",
+            "2025-06-13"
+        ],
+        "ora": "18:00",
+        "biglietti": [
+            {
+                "tipo": "General Admission",
+                "prezzo": 80.00,
+                "disponibilità": 12000,
+                "data": "2025-06-12"
+            },
+            {
+                "tipo": "VIP",
+                "prezzo": 150.00,
+                "disponibilità": 2000,
+                "data": "2025-06-12"
+            },
+            {
+                "tipo": "General Admission",
+                "prezzo": 80.00,
+                "disponibilità": 12000,
+                "data": "2025-06-13"
+            },
+            {
+                "tipo": "VIP",
+                "prezzo": 150.00,
+                "disponibilità": 2000,
+                "data": "2025-06-13"
+            }
+        ],
+        "luogo": {
+            "citta": "Rimini",
+            "locaita": "Parco Fellini",
+            "indirizzo": "Viale Principe di Piemonte, 289",
+            "coordinate": [
+                12.56408,
+                44.06066
+            ]
         }
-    ],
-    "luogo": {
-        "citta": "Roma",
-        "Località": "Parco di Centocelle",
-        "indirizzo": "Via Casilina, 665",
-        "coordinate": [
-            12.56408,
-            41.87194
-        ]
-    }
-}
+    },
     {
-    "nome_concerto": "Summer Music Fest 2025",
-    "ospiti": [
-        "Ed Sheeran",
-        "Dua Lipa",
-        "The Weeknd",
-        "Shawn Mendes",
-        "Billie Eilish"
-    ],
-    "date": [
-        "2025-07-10",
-        "2025-07-11",
-        "2025-07-12"
-    ],
-    "ora": "17:00",
-    "biglietti": [
-        {
-            "tipo": "Early Bird",
-            "prezzo": 90.00,
-            "disponibilità": 5000,
-            "data": "2025-07-10"
-        },
-        {
-            "tipo": "Regular",
-            "prezzo": 110.00,
-            "disponibilità": 10000,
-            "data": "2025-07-10"
-        },
-        {
-            "tipo": "Early Bird",
-            "prezzo": 90.00,
-            "disponibilità": 5000,
-            "data": "2025-07-11"
-        },
-        {
-            "tipo": "Regular",
-            "prezzo": 110.00,
-            "disponibilità": 10000,
-            "data": "2025-07-11"
-        },
-        {
-            "tipo": "Early Bird",
-            "prezzo": 90.00,
-            "disponibilità": 5000,
-            "data": "2025-07-12"
-        },
-        {
-            "tipo": "Regular",
-            "prezzo": 110.00,
-            "disponibilità": 10000,
-            "data": "2025-07-12"
+        "nome_concerto": "Rock in Park 2025",
+        "ospiti": [
+            "Foo Fighters",
+            "Muse",
+            "Paramore",
+            "Royal Blood",
+            "Twenty One Pilots"
+        ],
+        "date": [
+            "2025-09-05"
+        ],
+        "ora": "15:00",
+        "biglietti": [
+            {
+                "tipo": "General Admission",
+                "prezzo": 60.00,
+                "disponibilità": 15000,
+                "data": "2025-09-05"
+            },
+            {
+                "tipo": "VIP",
+                "prezzo": 120.00,
+                "disponibilità": 3000,
+                "data": "2025-09-05"
+            }
+        ],
+        "luogo": {
+            "citta": "Roma",
+            "locaita": "Parco di Centocelle",
+            "indirizzo": "Via Casilina, 665",
+            "coordinate": [
+                12.56408,
+                41.87194
+            ]
         }
-    ],
-    "luogo": {
-        "citta": "Bari",
-        "Località": "Molo San Nicola",
-        "indirizzo": "Lungomare Nazario Sauro, 2",
-        "coordinate": [
-            16.85693,
-            41.12019
-        ]
-    }
-}
+    },
     {
-    "nome_concerto": "Country Music Jamboree 2025",
-    "ospiti": [
-        "Luke Bryan",
-        "Blake Shelton",
-        "Carrie Underwood",
-        "Kenny Chesney"
-    ],
-    "date": [
-        "2025-10-18"
-    ],
-    "ora": "19:00",
-    "biglietti": [
-        {
-            "tipo": "General Admission",
-            "prezzo": 50.00,
-            "disponibilità": 8000,
-            "data": "2025-10-18"
-        },
-        {
-            "tipo": "Reserved Seating",
-            "prezzo": 80.00,
-            "disponibilità": 3000,
-            "data": "2025-10-18"
-        },
-        {
-            "tipo": "VIP",
-            "prezzo": 120.00,
-            "disponibilità": 1000,
-            "data": "2025-10-18"
+        "nome_concerto": "Summer Music Fest 2025",
+        "ospiti": [
+            "Ed Sheeran",
+            "Dua Lipa",
+            "The Weeknd",
+            "Shawn Mendes",
+            "Billie Eilish"
+        ],
+        "date": [
+            "2025-07-10",
+            "2025-07-11",
+            "2025-07-12"
+        ],
+        "ora": "17:00",
+        "biglietti": [
+            {
+                "tipo": "Early Bird",
+                "prezzo": 90.00,
+                "disponibilità": 5000,
+                "data": "2025-07-10"
+            },
+            {
+                "tipo": "Regular",
+                "prezzo": 110.00,
+                "disponibilità": 10000,
+                "data": "2025-07-10"
+            },
+            {
+                "tipo": "Early Bird",
+                "prezzo": 90.00,
+                "disponibilità": 5000,
+                "data": "2025-07-11"
+            },
+            {
+                "tipo": "Regular",
+                "prezzo": 110.00,
+                "disponibilità": 10000,
+                "data": "2025-07-11"
+            },
+            {
+                "tipo": "Early Bird",
+                "prezzo": 90.00,
+                "disponibilità": 5000,
+                "data": "2025-07-12"
+            },
+            {
+                "tipo": "Regular",
+                "prezzo": 110.00,
+                "disponibilità": 10000,
+                "data": "2025-07-12"
+            }
+        ],
+        "luogo": {
+            "citta": "Bari",
+            "locaita": "Molo San Nicola",
+            "indirizzo": "Lungomare Nazario Sauro, 2",
+            "coordinate": [
+                16.85693,
+                41.12019
+            ]
         }
-    ],
-    "luogo": {
-        "citta": "Milano",
-        "Località": "Stadio San Siro",
-        "indirizzo": "Via Piccolomini, 5",
-        "coordinate": [
-            45.47347,
-            9.12118
-        ]
+    },
+    {
+        "nome_concerto": "Country Music Jamboree 2025",
+        "ospiti": [
+            "Luke Bryan",
+            "Blake Shelton",
+            "Carrie Underwood",
+            "Kenny Chesney"
+        ],
+        "date": [
+            "2025-10-18"
+        ],
+        "ora": "19:00",
+        "biglietti": [
+            {
+                "tipo": "General Admission",
+                "prezzo": 50.00,
+                "disponibilità": 8000,
+                "data": "2025-10-18"
+            },
+            {
+                "tipo": "Reserved Seating",
+                "prezzo": 80.00,
+                "disponibilità": 3000,
+                "data": "2025-10-18"
+            },
+            {
+                "tipo": "VIP",
+                "prezzo": 120.00,
+                "disponibilità": 1000,
+                "data": "2025-10-18"
+            }
+        ],
+        "luogo": {
+            "citta": "Milano",
+            "locaita": "Stadio San Siro",
+            "indirizzo": "Via Piccolomini, 5",
+            "coordinate": [
+                45.47347,
+                9.12118
+            ]
+        }
     }
+]
 }
