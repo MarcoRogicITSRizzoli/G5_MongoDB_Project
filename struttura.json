@@ -1,5 +1,4 @@
-{
-    "concerti": [
+[
     {
         "artista": "Vasco Rossi",
         "nome_concerto": "Non Stop Live 2025",
@@ -41,7 +40,7 @@
             ]
         }
     },
-    { 
+    {
         "artista": "Laura Pausini",
         "nome_concerto": "Laura Pausini World Tour 2025",
         "ospiti": [
@@ -481,4 +480,3 @@
         }
     }
 ]
-}
