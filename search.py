@@ -1,5 +1,4 @@
 from database import get_db_connection
-import pymongo
 from datetime import datetime
 
 def display_concerts(concerts):
@@ -11,6 +10,8 @@ def display_concerts(concerts):
             print(f"{count}: {concert['nome_concerto']}, {ticket['data']}, {status}, {concert['luogo']['citta']}")
             concert_list.append((concert, ticket))
             count += 1
+    if not concert_list:
+        print("Nessun concerto trovato.")
     return concert_list
 
 def search_concerts_by_artist():
@@ -47,12 +48,12 @@ def search_concerts_by_name():
 def search_concerts_by_location():
     db = get_db_connection()
     city = input("Città: ")
-    location = db.locations.find_one({"city": {"$regex": city, "$options": "i"}})
+    location = db.locations.find_one({"citta": {"$regex": city, "$options": "i"}})
     if not location:
         print(f"Nessuna coordinata trovata per la città: {city}")
-        return
+        return []
     
-    coordinates = location['coordinates']
+    coordinates = location['coordinate']
     radius = 7000  # 7 km in metri
     
     concerts = db.concerts.aggregate([
