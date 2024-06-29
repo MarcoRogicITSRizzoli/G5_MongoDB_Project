@@ -32,7 +32,7 @@
         ],
         "luogo": {
             "citta": "Modena",
-            "Localita": "Stadio Braglia",
+            "localita": "Stadio Braglia",
             "indirizzo": "Viale dello Sport, 16",
             "coordinate": [
                 10.92619,
@@ -79,11 +79,52 @@
         ],
         "luogo": {
             "citta": "Roma",
-            "locaita": "Circo Massimo",
+            "localita": "Circo Massimo",
             "indirizzo": "Via del Circo Massimo",
             "coordinate": [
                 12.48377,
                 41.88532
+            ]
+        }
+    },
+    {
+        "artista": "Vasco Rossi",
+        "nome_concerto": "Non Live 2025",
+        "ospiti": [
+            "Mahmood",
+            "Emma Marrone"
+        ],
+        "date": [
+            "2025-07-20"
+        ],
+        "ora": "21:30",
+        "biglietti": [
+            {
+                "tipo": "Platea",
+                "prezzo": 80.00,
+                "disponibilita": 15000,
+                "data": "2025-7-20"
+            },
+            {
+                "tipo": "Tribuna",
+                "prezzo": 60.00,
+                "disponibilita": 20000,
+                "data": "2025-07-20"
+            },
+            {
+                "tipo": "Anello Superiore",
+                "prezzo": 40.00,
+                "disponibilita": 25000,
+                "data": "2025-07-20"
+            }
+        ],
+        "luogo": {
+            "citta": "Casalpusterlengo",
+            "localita": "Stadio Braglia",
+            "indirizzo": "Viale dello Sport, 16",
+            "coordinate": [
+                11.92619,
+                45.64852
             ]
         }
     },
@@ -120,7 +161,7 @@
         ],
         "luogo": {
             "citta": "Reggio Emilia",
-            "locaita": "RCF Arena",
+            "localita": "RCF Arena",
             "indirizzo": "Viale Olimpia, 1/A",
             "coordinate": [
                 10.62465,
@@ -155,7 +196,7 @@
         ],
         "luogo": {
             "citta": "Milano",
-            "locaita": "Alcatraz",
+            "localita": "Alcatraz",
             "indirizzo": "Via Valtellina, 25",
             "coordinate": [
                 9.18095,
@@ -196,7 +237,7 @@
         ],
         "luogo": {
             "citta": "Torino",
-            "locaita": "Pala Alpitour",
+            "localita": "Pala Alpitour",
             "indirizzo": "Corso Sebastopoli, 123",
             "coordinate": [
                 7.65594,
@@ -225,61 +266,61 @@
             {
                 "tipo": "Settore Rosso",
                 "prezzo": 150.00,
-                "disponibilità": 4000,
+                "disponibilita": 4000,
                 "data": "2025-11-20"
             },
             {
                 "tipo": "Settore Giallo",
                 "prezzo": 100.00,
-                "disponibilità": 6000,
+                "disponibilita": 6000,
                 "data": "2025-11-20"
             },
             {
                 "tipo": "Settore Verde",
                 "prezzo": 70.00,
-                "disponibilità": 10000,
+                "disponibilita": 10000,
                 "data": "2025-11-20"
             },
             {
                 "tipo": "Settore Rosso",
                 "prezzo": 150.00,
-                "disponibilità": 4000,
+                "disponibilita": 4000,
                 "data": "2025-11-21"
             },
             {
                 "tipo": "Settore Giallo",
                 "prezzo": 100.00,
-                "disponibilità": 6000,
+                "disponibilita": 6000,
                 "data": "2025-11-21"
             },
             {
                 "tipo": "Settore Verde",
                 "prezzo": 70.00,
-                "disponibilità": 10000,
+                "disponibilita": 10000,
                 "data": "2025-11-21"
             },
             {
                 "tipo": "Settore Rosso",
                 "prezzo": 150.00,
-                "disponibilità": 4000,
+                "disponibilita": 4000,
                 "data": "2025-11-22"
             },
             {
                 "tipo": "Settore Giallo",
                 "prezzo": 100.00,
-                "disponibilità": 6000,
+                "disponibilita": 6000,
                 "data": "2025-11-22"
             },
             {
                 "tipo": "Settore Verde",
                 "prezzo": 70.00,
-                "disponibilità": 10000,
+                "disponibilita": 10000,
                 "data": "2025-11-22"
             }
         ],
         "luogo": {
             "citta": "Milano",
-            "locaita": "Ippodromo SNAI San Siro",
+            "localita": "Ippodromo SNAI San Siro",
             "indirizzo": "Viale Piccolomini, 1",
             "coordinate": [
                 9.13593,
@@ -305,31 +346,31 @@
             {
                 "tipo": "General Admission",
                 "prezzo": 80.00,
-                "disponibilità": 12000,
+                "disponibilita": 12000,
                 "data": "2025-06-12"
             },
             {
                 "tipo": "VIP",
                 "prezzo": 150.00,
-                "disponibilità": 2000,
+                "disponibilita": 2000,
                 "data": "2025-06-12"
             },
             {
                 "tipo": "General Admission",
                 "prezzo": 80.00,
-                "disponibilità": 12000,
+                "disponibilita": 12000,
                 "data": "2025-06-13"
             },
             {
                 "tipo": "VIP",
                 "prezzo": 150.00,
-                "disponibilità": 2000,
+                "disponibilita": 2000,
                 "data": "2025-06-13"
             }
         ],
         "luogo": {
             "citta": "Rimini",
-            "locaita": "Parco Fellini",
+            "localita": "Parco Fellini",
             "indirizzo": "Viale Principe di Piemonte, 289",
             "coordinate": [
                 12.56408,
@@ -354,19 +395,19 @@
             {
                 "tipo": "General Admission",
                 "prezzo": 60.00,
-                "disponibilità": 15000,
+                "disponibilita": 15000,
                 "data": "2025-09-05"
             },
             {
                 "tipo": "VIP",
                 "prezzo": 120.00,
-                "disponibilità": 3000,
+                "disponibilita": 3000,
                 "data": "2025-09-05"
             }
         ],
         "luogo": {
             "citta": "Roma",
-            "locaita": "Parco di Centocelle",
+            "localita": "Parco di Centocelle",
             "indirizzo": "Via Casilina, 665",
             "coordinate": [
                 12.56408,
@@ -393,43 +434,43 @@
             {
                 "tipo": "Early Bird",
                 "prezzo": 90.00,
-                "disponibilità": 5000,
+                "disponibilita": 5000,
                 "data": "2025-07-10"
             },
             {
                 "tipo": "Regular",
                 "prezzo": 110.00,
-                "disponibilità": 10000,
+                "disponibilita": 10000,
                 "data": "2025-07-10"
             },
             {
                 "tipo": "Early Bird",
                 "prezzo": 90.00,
-                "disponibilità": 5000,
+                "disponibilita": 5000,
                 "data": "2025-07-11"
             },
             {
                 "tipo": "Regular",
                 "prezzo": 110.00,
-                "disponibilità": 10000,
+                "disponibilita": 10000,
                 "data": "2025-07-11"
             },
             {
                 "tipo": "Early Bird",
                 "prezzo": 90.00,
-                "disponibilità": 5000,
+                "disponibilita": 5000,
                 "data": "2025-07-12"
             },
             {
                 "tipo": "Regular",
                 "prezzo": 110.00,
-                "disponibilità": 10000,
+                "disponibilita": 10000,
                 "data": "2025-07-12"
             }
         ],
         "luogo": {
             "citta": "Bari",
-            "locaita": "Molo San Nicola",
+            "localita": "Molo San Nicola",
             "indirizzo": "Lungomare Nazario Sauro, 2",
             "coordinate": [
                 16.85693,
@@ -453,25 +494,25 @@
             {
                 "tipo": "General Admission",
                 "prezzo": 50.00,
-                "disponibilità": 8000,
+                "disponibilita": 8000,
                 "data": "2025-10-18"
             },
             {
                 "tipo": "Reserved Seating",
                 "prezzo": 80.00,
-                "disponibilità": 3000,
+                "disponibilita": 3000,
                 "data": "2025-10-18"
             },
             {
                 "tipo": "VIP",
                 "prezzo": 120.00,
-                "disponibilità": 1000,
+                "disponibilita": 1000,
                 "data": "2025-10-18"
             }
         ],
         "luogo": {
             "citta": "Milano",
-            "locaita": "Stadio San Siro",
+            "localita": "Stadio San Siro",
             "indirizzo": "Via Piccolomini, 5",
             "coordinate": [
                 45.47347,
