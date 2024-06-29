@@ -30,14 +30,6 @@ def search_concerts_by_date_range():
     
     return display_concerts(concerts)
 
-def search_concerts_by_city():
-    db = get_db_connection()
-    city = input("Città: ")
-    
-    concerts = db.concerts.find({"luogo.citta": {"$regex": city, "$options": "i"}})
-    
-    return display_concerts(concerts)
-
 def search_concerts_by_name():
     db = get_db_connection()
     concert_name = input("Nome Concerto: ")
@@ -47,13 +39,14 @@ def search_concerts_by_name():
 
 def search_concerts_by_location():
     db = get_db_connection()
-    city = input("Città: ")
-    location = db.locations.find_one({"citta": {"$regex": city, "$options": "i"}})
-    if not location:
-        print(f"Nessuna coordinata trovata per la città: {city}")
-        return []
+    lat_prefix = input("Inserisci le prime due cifre della latitudine: ")
+    lon_prefix = input("Inserisci le prime due cifre della longitudine: ")
     
-    coordinates = location['coordinate']
+    lat = float(lat_prefix)
+    lon = float(lon_prefix)
+    
+    coordinates = [lon, lat]
+
     radius = 7000  # 7 km in metri
     
     concerts = db.concerts.aggregate([
