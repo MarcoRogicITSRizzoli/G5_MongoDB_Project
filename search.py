@@ -1,5 +1,6 @@
 from database import get_db_connection
 from datetime import datetime
+from geopy.distance import geodesic
 
 def display_concerts(concerts):
     count = 1
@@ -39,25 +40,20 @@ def search_concerts_by_name():
 
 def search_concerts_by_location():
     db = get_db_connection()
-    lat_prefix = input("Inserisci le prime due cifre della latitudine: ")
-    lon_prefix = input("Inserisci le prime due cifre della longitudine: ")
-    
-    lat = float(lat_prefix)
-    lon = float(lon_prefix)
-    
-    coordinates = [lon, lat]
+    longitude = float(input("Longitudine: "))
+    latitude = float(input("Latitudine: "))
 
-    radius = 7000  # 7 km in metri
-    
-    concerts = db.concerts.aggregate([
-        {
-            "$geoNear": {
-                "near": {"type": "Point", "coordinates": coordinates},
-                "distanceField": "dist.calculated",
-                "maxDistance": radius,
-                "spherical": True
-            }
-        }
-    ])
-    
-    return display_concerts(concerts)
+    user_location = (latitude, longitude)
+
+    concerts = db.concerts.find()
+
+    nearby_concerts = []
+    for concert in concerts:
+        concert_location = concert["luogo"]["coordinate"]["coordinates"]
+        concert_coordinates = (concert_location[1], concert_location[0])
+
+        distance = geodesic(user_location, concert_coordinates).km
+        if distance <= 7:
+            nearby_concerts.append(concert)
+
+    return display_concerts(nearby_concerts)
